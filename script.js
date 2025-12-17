@@ -293,19 +293,19 @@
 
 // 27. Write a loop that checks if a number 25 exists in the array [10, 20, 30, 40, 25].
 
-let arrnum = [10, 20, 30, 40, 25];
-let found = false;
-for (i = 0; i < arrnum.length; i++) {
-    if (arrnum[i] === 25) {
-        found = true;
-    }
-}
-if (found) {
-    console.log(`Yes 25 exist in  ${i} index !`);
-}
-else {
-    console.log(`Opps 25 is not exist in ${i} index !`);
-}
+// let arrnum = [10, 20, 30, 40, 25];
+// let found = false;
+// for (i = 0; i < arrnum.length; i++) {
+//     if (arrnum[i] === 25) {
+//         found = true;
+//     }
+// }
+// if (found) {
+//     console.log(`Yes 25 exist in  ${i} index !`);
+// }
+// else {
+//     console.log(`Opps 25 is not exist in ${i} index !`);
+// }
 
 
 
@@ -343,5 +343,71 @@ else {
 // console.log(arr_3);
 
 
+// 29. Use a loop to find the second-largest number in an array [10, 99, 23, 87, 56].
 
+// let arr = [10, 99, 23, 87, 56];
+
+// let largest = -Infinity;
+// let second_largest = -Infinity;
+// for(let i=0; i<arr.length; i++){
+//     if (arr[i] > largest){
+//          second_largest = largest;
+//          largest = arr[i];
+//     }
+//     else if (arr[i] > second_largest && arr[i] !== largest) {
+//     second_largest = arr[i];
+//   }
+// }
+// console.log(second_largest);
+
+// 30. Given an array [1, 2, 3, 4, 5], reverse the array manually using a loop (don’t use
+// .reverse()).
+
+// let arr = [1, 2, 3, 4, 5];
+// let  rev = 0 ;
+// for(let i=arr.length; i>0; i--){
+//      console.log(i);   
+// }
+
+
+// 31. Write a loop that finds and prints all the prime numbers between 1 and 50.
+
+// for(let i=2; i<50; i++){
+//     let isPrime = true;
+//     for(let j=2; j<Math.sqrt(i); j++){
+//      if(num % i === 0){
+//           isPrime = false;
+//           break;
+//      }
+//     }
+
+// if(isPrime)
+//      console.log(i);
+     
+// }
+
+
+
+
+
+
+
+// 32. Create a loop that finds the difference between the largest and smallest numbers in an array 
+// [11, 4, 99, 2, 47].
+
+
+
+// let array = [11, 4, 99, 2, 47];
+// let largest = -Infinity;
+// let smallest = Infinity;
+// for(let i=0; i<array.length; i++){
+//      if(array[i] > largest){
+//           largest = array[i];
+//      }
+//      else if (smallest >  array[i]){
+//           smallest = array[i];
+//      }
+// }
+// let  difference =  largest - smallest
+// console.log(difference);
 
